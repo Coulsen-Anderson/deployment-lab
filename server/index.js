@@ -18,6 +18,9 @@ app.get('/', (req, res) => {
 app.get('/css', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/styles.css'))
 })
+app.get('pexels-wallace-chuck-3587477.jpg', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/pexels-wallace-chuck-3587477.jpg'))
+})
 
 
 app.listen(port, () => {
