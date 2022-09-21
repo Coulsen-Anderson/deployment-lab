@@ -14,8 +14,27 @@ h1 {
     justify-content: center;
 }
 
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(57, 84, 145);
+    color: darkgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10%;
+    height: 25%; 
+
+}
+
 .center {
     display: block;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
