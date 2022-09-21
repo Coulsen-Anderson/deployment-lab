@@ -11,6 +11,9 @@ const app = express()
 app.use(express.json())
 
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/index.html'))
+})
 
 
 app.listen(port, () => {
